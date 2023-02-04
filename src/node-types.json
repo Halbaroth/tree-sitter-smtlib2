@@ -1,0 +1,1111 @@
+[
+  {
+    "type": "attribute",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute_value",
+          "named": true
+        },
+        {
+          "type": "keyword",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "attribute_value",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "s_expr",
+          "named": true
+        },
+        {
+          "type": "spec_constant",
+          "named": true
+        },
+        {
+          "type": "symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "b_value",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "binary",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "command",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "attribute",
+          "named": true
+        },
+        {
+          "type": "datatype_dec",
+          "named": true
+        },
+        {
+          "type": "function_def",
+          "named": true
+        },
+        {
+          "type": "info_flag",
+          "named": true
+        },
+        {
+          "type": "keyword",
+          "named": true
+        },
+        {
+          "type": "numeral",
+          "named": true
+        },
+        {
+          "type": "option",
+          "named": true
+        },
+        {
+          "type": "prop_literal",
+          "named": true
+        },
+        {
+          "type": "sort",
+          "named": true
+        },
+        {
+          "type": "sort_dec",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "symbol",
+          "named": true
+        },
+        {
+          "type": "term",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "comment",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "constructor_dec",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "selector_dec",
+          "named": true
+        },
+        {
+          "type": "symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "datatype_dec",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "constructor_dec",
+          "named": true
+        },
+        {
+          "type": "symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "decimal",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "numeral",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "fun_symbol_decl",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "meta_spec_constant",
+          "named": true
+        },
+        {
+          "type": "sort",
+          "named": true
+        },
+        {
+          "type": "spec_constant",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "function_def",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "sort",
+          "named": true
+        },
+        {
+          "type": "sorted_var",
+          "named": true
+        },
+        {
+          "type": "symbol",
+          "named": true
+        },
+        {
+          "type": "term",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "hexadecimal",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "identifier",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "index",
+          "named": true
+        },
+        {
+          "type": "symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "index",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "numeral",
+          "named": true
+        },
+        {
+          "type": "symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "info_flag",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "keyword",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "keyword",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "simple_symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "logic_attribute",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "match_case",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "pattern",
+          "named": true
+        },
+        {
+          "type": "term",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "meta_spec_constant",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "numeral",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "option",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute",
+          "named": true
+        },
+        {
+          "type": "b_value",
+          "named": true
+        },
+        {
+          "type": "numeral",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "par_fun_symbol_decl",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute",
+          "named": true
+        },
+        {
+          "type": "fun_symbol_decl",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "sort",
+          "named": true
+        },
+        {
+          "type": "symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "pattern",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "prop_literal",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "qual_identifier",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "sort",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "reserved",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "s_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "keyword",
+          "named": true
+        },
+        {
+          "type": "reserved",
+          "named": true
+        },
+        {
+          "type": "s_expr",
+          "named": true
+        },
+        {
+          "type": "spec_constant",
+          "named": true
+        },
+        {
+          "type": "symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "selector_dec",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "sort",
+          "named": true
+        },
+        {
+          "type": "symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "sort",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "sort",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "sort_dec",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "numeral",
+          "named": true
+        },
+        {
+          "type": "symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "sort_symbol_decl",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "numeral",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "sorted_var",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "sort",
+          "named": true
+        },
+        {
+          "type": "symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "comment",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "spec_constant",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "binary",
+          "named": true
+        },
+        {
+          "type": "decimal",
+          "named": true
+        },
+        {
+          "type": "hexadecimal",
+          "named": true
+        },
+        {
+          "type": "numeral",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "string",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "symbol",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "quoted_symbol",
+          "named": true
+        },
+        {
+          "type": "simple_symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "term",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute",
+          "named": true
+        },
+        {
+          "type": "match_case",
+          "named": true
+        },
+        {
+          "type": "qual_identifier",
+          "named": true
+        },
+        {
+          "type": "sorted_var",
+          "named": true
+        },
+        {
+          "type": "spec_constant",
+          "named": true
+        },
+        {
+          "type": "term",
+          "named": true
+        },
+        {
+          "type": "var_binding",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "theory_attribute",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute",
+          "named": true
+        },
+        {
+          "type": "par_fun_symbol_decl",
+          "named": true
+        },
+        {
+          "type": "sort_symbol_decl",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "var_binding",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "symbol",
+          "named": true
+        },
+        {
+          "type": "term",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "!",
+    "named": false
+  },
+  {
+    "type": "\"",
+    "named": false
+  },
+  {
+    "type": "#b",
+    "named": false
+  },
+  {
+    "type": "#x",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": ".",
+    "named": false
+  },
+  {
+    "type": "0",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": ":all-statistics",
+    "named": false
+  },
+  {
+    "type": ":assertion-stack-levels",
+    "named": false
+  },
+  {
+    "type": ":authors",
+    "named": false
+  },
+  {
+    "type": ":definition",
+    "named": false
+  },
+  {
+    "type": ":diagnostic-output-channel",
+    "named": false
+  },
+  {
+    "type": ":error-behavior",
+    "named": false
+  },
+  {
+    "type": ":extensions",
+    "named": false
+  },
+  {
+    "type": ":funs",
+    "named": false
+  },
+  {
+    "type": ":funs-description",
+    "named": false
+  },
+  {
+    "type": ":global-declaration",
+    "named": false
+  },
+  {
+    "type": ":interactive-mode",
+    "named": false
+  },
+  {
+    "type": ":language",
+    "named": false
+  },
+  {
+    "type": ":name",
+    "named": false
+  },
+  {
+    "type": ":notes",
+    "named": false
+  },
+  {
+    "type": ":print-success",
+    "named": false
+  },
+  {
+    "type": ":produce-assertions",
+    "named": false
+  },
+  {
+    "type": ":produce-models",
+    "named": false
+  },
+  {
+    "type": ":produce-proofs",
+    "named": false
+  },
+  {
+    "type": ":produce-unsat-assumptions",
+    "named": false
+  },
+  {
+    "type": ":produce-unsat-cores",
+    "named": false
+  },
+  {
+    "type": ":random-seed",
+    "named": false
+  },
+  {
+    "type": ":reason-unknown",
+    "named": false
+  },
+  {
+    "type": ":regular-output-channel",
+    "named": false
+  },
+  {
+    "type": ":reproducible-resource-limit",
+    "named": false
+  },
+  {
+    "type": ":sorts",
+    "named": false
+  },
+  {
+    "type": ":sorts-description",
+    "named": false
+  },
+  {
+    "type": ":theories",
+    "named": false
+  },
+  {
+    "type": ":values",
+    "named": false
+  },
+  {
+    "type": ":verbosity",
+    "named": false
+  },
+  {
+    "type": ":version",
+    "named": false
+  },
+  {
+    "type": ";",
+    "named": false
+  },
+  {
+    "type": "BINARY",
+    "named": false
+  },
+  {
+    "type": "DECIMAL",
+    "named": false
+  },
+  {
+    "type": "HEXADECIMAL",
+    "named": false
+  },
+  {
+    "type": "NUMERAL",
+    "named": false
+  },
+  {
+    "type": "STRING",
+    "named": false
+  },
+  {
+    "type": "_",
+    "named": false
+  },
+  {
+    "type": "as",
+    "named": false
+  },
+  {
+    "type": "assert",
+    "named": false
+  },
+  {
+    "type": "check-sat",
+    "named": false
+  },
+  {
+    "type": "check-sat-assuming",
+    "named": false
+  },
+  {
+    "type": "declare-const",
+    "named": false
+  },
+  {
+    "type": "declare-datatype",
+    "named": false
+  },
+  {
+    "type": "declare-datatypes",
+    "named": false
+  },
+  {
+    "type": "declare-fun",
+    "named": false
+  },
+  {
+    "type": "declare-sort",
+    "named": false
+  },
+  {
+    "type": "define-fun",
+    "named": false
+  },
+  {
+    "type": "define-fun-rec",
+    "named": false
+  },
+  {
+    "type": "define-sort",
+    "named": false
+  },
+  {
+    "type": "echo",
+    "named": false
+  },
+  {
+    "type": "exists",
+    "named": false
+  },
+  {
+    "type": "exit",
+    "named": false
+  },
+  {
+    "type": "false",
+    "named": false
+  },
+  {
+    "type": "forall",
+    "named": false
+  },
+  {
+    "type": "get-assertions",
+    "named": false
+  },
+  {
+    "type": "get-assignment",
+    "named": false
+  },
+  {
+    "type": "get-info",
+    "named": false
+  },
+  {
+    "type": "get-model",
+    "named": false
+  },
+  {
+    "type": "get-option",
+    "named": false
+  },
+  {
+    "type": "get-proof",
+    "named": false
+  },
+  {
+    "type": "get-unsat-assumptions",
+    "named": false
+  },
+  {
+    "type": "get-unsat-core",
+    "named": false
+  },
+  {
+    "type": "get-value",
+    "named": false
+  },
+  {
+    "type": "let",
+    "named": false
+  },
+  {
+    "type": "logic",
+    "named": false
+  },
+  {
+    "type": "match",
+    "named": false
+  },
+  {
+    "type": "not",
+    "named": false
+  },
+  {
+    "type": "par",
+    "named": false
+  },
+  {
+    "type": "pop",
+    "named": false
+  },
+  {
+    "type": "push",
+    "named": false
+  },
+  {
+    "type": "quoted_symbol",
+    "named": true
+  },
+  {
+    "type": "reset",
+    "named": false
+  },
+  {
+    "type": "reset-assertions",
+    "named": false
+  },
+  {
+    "type": "set-info",
+    "named": false
+  },
+  {
+    "type": "set-logic",
+    "named": false
+  },
+  {
+    "type": "set-option",
+    "named": false
+  },
+  {
+    "type": "simple_symbol",
+    "named": true
+  },
+  {
+    "type": "theory",
+    "named": false
+  },
+  {
+    "type": "true",
+    "named": false
+  }
+]
